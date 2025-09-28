@@ -1,0 +1,8 @@
+{
+  "n_applications":1000.0,
+  "approval_rate":0.05,
+  "review_rate":0.1,
+  "decline_rate":0.85,
+  "avg_limit_approved":45770.6735720279,
+  "sum_limit_approved":2288533.6786013963
+}
