@@ -1,0 +1,10 @@
+{
+  "n_applications": 1000,
+  "approval_rate": 0.05,
+  "review_rate": 0.1,
+  "decline_rate": 0.85,
+  "thr_pd_month": 0.045125767124399696,
+  "review_upper": 0.06549622408637328,
+  "avg_limit_approved": 45770.673572027925,
+  "sum_limit_approved": 2288533.6786013963
+}
