@@ -1,0 +1,101 @@
+{
+  "n_applications": 1000,
+  "overall": {
+    "approval_rate": 0.05,
+    "review_rate": 0.1,
+    "decline_rate": 0.85,
+    "expected_loss_rate_proxy": 0.0729198700130948
+  },
+  "group_reports": {
+    "sex": {
+      "reference_group": "2",
+      "table": [
+        {
+          "sex": "1",
+          "n": 359,
+          "approval_rate": 0.055710306406685235,
+          "review_rate": 0.08635097493036212,
+          "decline_rate": 0.8579387186629527,
+          "avg_pd": 0.22178870818637955,
+          "avg_limit_approved": 49975.949714338596,
+          "approval_rate_ratio_vs_ref": 1.1903435468895078
+        },
+        {
+          "sex": "2",
+          "n": 641,
+          "approval_rate": 0.046801872074883,
+          "review_rate": 0.10764430577223089,
+          "decline_rate": 0.8455538221528861,
+          "avg_pd": 0.21037138795937096,
+          "avg_limit_approved": 42967.15614382082,
+          "approval_rate_ratio_vs_ref": 1.0
+        }
+      ]
+    },
+    "age_band": {
+      "reference_group": "[25, 35)",
+      "table": [
+        {
+          "age_band": "[18, 25)",
+          "n": 81,
+          "approval_rate": 0.0,
+          "review_rate": 0.0,
+          "decline_rate": 1.0,
+          "avg_pd": 0.2640434140529658,
+          "avg_limit_approved": NaN,
+          "approval_rate_ratio_vs_ref": 0.0
+        },
+        {
+          "age_band": "[25, 35)",
+          "n": 430,
+          "approval_rate": 0.046511627906976744,
+          "review_rate": 0.1186046511627907,
+          "decline_rate": 0.8348837209302326,
+          "avg_pd": 0.20670695982717496,
+          "avg_limit_approved": 45816.869603367246,
+          "approval_rate_ratio_vs_ref": 1.0
+        },
+        {
+          "age_band": "[35, 45)",
+          "n": 299,
+          "approval_rate": 0.06354515050167224,
+          "review_rate": 0.10033444816053512,
+          "decline_rate": 0.8361204013377926,
+          "avg_pd": 0.21291273851281517,
+          "avg_limit_approved": 46576.228981869004,
+          "approval_rate_ratio_vs_ref": 1.3662207357859533
+        },
+        {
+          "age_band": "[45, 55)",
+          "n": 156,
+          "approval_rate": 0.07051282051282051,
+          "review_rate": 0.08974358974358974,
+          "decline_rate": 0.8397435897435898,
+          "avg_pd": 0.21742285722162494,
+          "avg_limit_approved": 44295.26689804915,
+          "approval_rate_ratio_vs_ref": 1.516025641025641
+        },
+        {
+          "age_band": "[55, 65)",
+          "n": 31,
+          "approval_rate": 0.0,
+          "review_rate": 0.12903225806451613,
+          "decline_rate": 0.8709677419354839,
+          "avg_pd": 0.20518920232081217,
+          "avg_limit_approved": NaN,
+          "approval_rate_ratio_vs_ref": 0.0
+        },
+        {
+          "age_band": "[65, 200)",
+          "n": 3,
+          "approval_rate": 0.0,
+          "review_rate": 0.3333333333333333,
+          "decline_rate": 0.6666666666666666,
+          "avg_pd": 0.08631894768039504,
+          "avg_limit_approved": NaN,
+          "approval_rate_ratio_vs_ref": 0.0
+        }
+      ]
+    }
+  }
+}
